@@ -54,7 +54,7 @@ metadata {
             state "default", action: "refresh.refresh", icon: "st.secondary.refresh"
         }
 
-        main "temperature", "humidity"
+        main "temperature"
         details(["temperature", "humidity", "refresh"])
     }
 }
